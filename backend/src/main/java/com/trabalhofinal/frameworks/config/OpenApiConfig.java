@@ -18,7 +18,7 @@ public class OpenApiConfig {
     }
 }*/
 
-package com.trabalhofinal.frameworks.config;
+/*package com.trabalhofinal.frameworks.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
@@ -49,4 +49,33 @@ import org.springframework.context.annotation.Configuration;
         bearerFormat = "JWT"
 )
 public class OpenApiConfig {
+}*/
+
+package com.trabalhofinal.frameworks.config;
+
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.servers.Server;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.List;
+
+@Configuration
+public class OpenApiConfig {
+
+    @Bean
+    public OpenAPI agendaProOpenAPI() {
+        return new OpenAPI()
+                .info(new Info()
+                        .title("AgendaPro API - Trabalho Final Frameworks Web II")
+                        .description("API para sistema de agendamento de serviços")
+                        .version("1.0.0"))
+                .servers(List.of(
+                        new Server()
+                                .url("https://agendapro-8xy7.onrender.com")
+                                .description("Produção - Render")
+                ));
+    }
 }
+
