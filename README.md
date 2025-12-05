@@ -1,5 +1,10 @@
 # Trabalho Final - Frameworks Web II
 
+# Projeto - AgendaPro
+
+# Integrantes 
+1 - Felipe Cley
+
 Aplicação **full stack** de agendamento de serviços ("AgendaPro") desenvolvida com **Spring Boot (backend)** e **React (frontend)**.
 
 > Tema: Sistema de agendamentos entre profissionais de serviços e clientes.
@@ -131,17 +136,15 @@ Para ambiente de produção (Vercel), configurar a mesma variável `VITE_API_BAS
 
 ## Links para entrega (exemplo de formato para o Moodle)
 
-Arquivo a ser enviado no Moodle (`links_entrega.md` ou `.txt`):
 
 - Repositório GitHub:  
-  `https://github.com/SEU_USUARIO/seu-repositorio-trabalho-final`
+  `https://github.com/felipecley/AgendaPro`
 - Frontend (Vercel):  
-  `https://SEU_FRONT_NO_VERCEL.vercel.app`
+  `https://agenda-pro-one.vercel.app`
 - Backend (Render):  
-  `https://SEU_BACK_NO_RENDER.onrender.com`
+  `https://agendapro-8xy7.onrender.com`
 - Swagger (Render):  
-  `https://SEU_BACK_NO_RENDER.onrender.com/swagger-ui.html`
+  https://agendapro-8xy7.onrender.com/swagger-ui/index.html`
 - Vídeo de demonstração (YouTube/Drive):  
-  `https://link-do-video`
+  `https://unilavrasedu-my.sharepoint.com/:v:/g/personal/fcley69_sou_unilavras_edu_br/IQAJGl2ppnDiTb7y2Rn4lrUPAeZcX-k4drA1mrMW3vMAZGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zthjav`
 
-Substituir os links acima pelos links reais após o deploy.
