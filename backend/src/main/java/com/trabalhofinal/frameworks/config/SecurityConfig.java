@@ -65,7 +65,7 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://SEU_FRONT_NO_VERCEL.vercel.app" // depois troca pro domínio real do Vercel
+                "https://agenda-pro-one.vercel.app" // depois troca pro domínio real do Vercel
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
