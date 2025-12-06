@@ -3,7 +3,7 @@
 # Projeto - AgendaPro
 
 # Integrantes 
-1 - Felipe Cley
+1 - Felipe Cley, Gustavo Ângelo Almeida, Raquel Anselmo Alvarenga.
 
 Aplicação **full stack** de agendamento de serviços ("AgendaPro") desenvolvida com **Spring Boot (backend)** e **React (frontend)**.
 
